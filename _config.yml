@@ -2,15 +2,15 @@
 
 menu:
   主页: /
-  随笔: /tags/随笔/
+  # 随笔: /tags/
 
 # SubNav
 subnav:
-  github: "#"
-  weibo: "#"
-  rss: "#"
-  zhihu: "#"
-  #qq: "#"
+  github: "https://github.com/dccmmtop"
+  # weibo: "#"
+  # rss: "#"
+  # zhihu: "#"
+  # qq: "1944864971"
   #weixin: "#"
   #jianshu: "#"
   #douban: "#"
@@ -43,17 +43,17 @@ open_in_new: false
 
 # 打赏
 # 打赏type设定：0-关闭打赏； 1-文章对应的md文件里有reward:true属性，才有打赏； 2-所有文章均有打赏
-reward_type: 2
+reward_type: 1
 # 打赏wording
 reward_wording: '谢谢你请我吃糖果'
 # 支付宝二维码图片地址，跟你设置头像的方式一样。比如：/assets/img/alipay.jpg
-alipay: 
+alipay: https://i.loli.net/2019/10/30/cu9rTEGOwlSbDdK.jpg?filename=IMG_20191030_234958.jpg 
 # 微信二维码图片地址
-weixin: 
+weixin: https://i.loli.net/2019/10/30/mMNHzZeQoL3JI5i.png?filename=IMG_20191030_235139.png
 
 # 目录
 # 目录设定：0-不显示目录； 1-文章对应的md文件里有toc:true属性，才有目录； 2-所有文章均显示目录
-toc: 1
+toc: 2
 # 根据自己的习惯来设置，如果你的目录标题习惯有标号，置为true即可隐藏hexo重复的序号；否则置为false
 toc_hide_index: true
 # 目录为空时的提示
@@ -65,10 +65,10 @@ top: true
 # Miscellaneous
 baidu_analytics: ''
 google_analytics: ''
-favicon: /favicon.png
+favicon: /avatar.jpg
 
 #你的头像url
-avatar:
+avatar: https://i.loli.net/2019/10/30/6v5Y29ChdaRKpuL.jpg?filename=avatar.jpg
 
 #是否开启分享
 share_jia: true
@@ -116,15 +116,15 @@ slider:
 #  friends: false
 smart_menu:
   innerArchive: '所有文章'
-  friends: '友链'
+  # friends: '友链'
   aboutme: '关于我'
 
-friends:
-  友情链接1: http://localhost:4000/
-  友情链接2: http://localhost:4000/
-  友情链接3: http://localhost:4000/
-  友情链接4: http://localhost:4000/
-  友情链接5: http://localhost:4000/
-  友情链接6: http://localhost:4000/
+# friends:
+  # 友情链接1: http://localhost:4000/
+  # 友情链接2: http://localhost:4000/
+  # 友情链接3: http://localhost:4000/
+  # 友情链接4: http://localhost:4000/
+  # 友情链接5: http://localhost:4000/
+  # 友情链接6: http://localhost:4000/
 
-aboutme: 很惭愧<br><br>只做了一点微小的工作<br>谢谢大家
+aboutme: 你要克服懒惰<br>你要克服游手好闲<br>你要克服漫长的白日梦<br>你要克服一蹴而就的妄想<br> 你要克服自以为是浅薄的幽默感<br>你要独立生长在这世上<br>不寻找不依靠<br>因为冷漠寡情的人孤独一生<br>你要坚强,振作,自立<br>不能软弱,逃避,害怕<br>不要沉溺在消极负面得情绪里<br>要正面阳光得对待生活和爱你的人
